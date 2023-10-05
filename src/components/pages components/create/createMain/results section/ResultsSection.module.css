@@ -1,0 +1,23 @@
+
+
+
+.results-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.results-card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.results-card_data {
+    display: grid;
+    place-content: center;
+}
+.results-card_data-count {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+
+
+
+
+.text-input {
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+.text-input::placeholder {
+    color: gray;
+    font-weight: 500;
+}

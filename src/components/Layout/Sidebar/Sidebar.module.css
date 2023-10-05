@@ -1,0 +1,34 @@
+
+
+
+.sidebar {
+    position: sticky;
+    inset: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    border-right: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+    padding: 20px 0;
+    padding-top: 90px;
+    overflow: hidden;
+}
+.sidebar-bottom {
+    position: absolute;
+    bottom: 20px;
+}
+.sidebar-nav {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.sidebar-nav-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.sub-create {
+    overflow: hidden;
+}

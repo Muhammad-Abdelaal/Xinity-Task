@@ -1,0 +1,15 @@
+
+
+.my-projects-title {
+    margin: 10px;
+}
+.my-projects-header {
+    color: #676767;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #E1EFFE;
+    padding: 5px 10px;
+}
+/* .header-title {
+    text-align: center;
+} */

@@ -1,0 +1,51 @@
+
+
+
+.card {
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.156);
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    overflow: hidden;
+}
+.card::-webkit-scrollbar {
+    display: none;
+}
+.modal-container {
+    position: fixed;
+    inset:0;
+    display: grid;
+    justify-content: center;
+}
+.overlay {
+    position: fixed;
+    inset:0;
+    background-color: rgba(0, 0, 0, 0.121);
+    display: grid;
+    justify-content: center;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.modal-action_btn {
+    cursor: pointer;
+    padding: 10px 60px;
+    display: grid;
+    place-content: center;
+    border-radius: 7px;
+}
+.small-pfp {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
